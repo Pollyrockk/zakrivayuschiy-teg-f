@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   gap: 98px;
-  padding-block: 100px 0;
-  font-family: var(--main-font-family);
+  padding-block: 100px 100px;
+  font-family: var(--main-font-family), sans-serif;
   background-image: var(--backround-pattern);
   background-size: cover;
   background-attachment: fixed;
@@ -24,7 +24,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   width: var(--block-width);
   padding-top: var(--header-padding);
   padding-bottom: var(--header-padding);
@@ -41,14 +41,19 @@
   }
 }
 
+.header a, a:hover, a:visited {
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .header__logotype {
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: clamp(3.0625rem, 2.71rem + 1.5vw, 4.0625rem);
   text-transform: uppercase;
 }
 
 .header__title {
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: clamp(0.875rem, 0.68rem + 0.85vw, 1.4375rem);
   text-transform: uppercase;
 }
@@ -93,7 +98,7 @@
   right: 27px;
   opacity: 0.5;
   color: currentColor;
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
   text-transform: uppercase;
   text-shadow:
@@ -132,7 +137,7 @@
 
 .card__description_text,
 .card__title {
-  font-family: var(--main-font-family);
+  font-family: var(--main-font-family), sans-serif;
   font-size: var(--text-font-size);
   line-height: 21px;
 }
@@ -188,7 +193,7 @@ dialog .button {
   position: relative;
   z-index: 1;
   color: var(--text-color-animation);
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
   line-height: 90%;
   mix-blend-mode: difference;
@@ -338,7 +343,7 @@ dialog .button {
 
 .dialog-block__info_text {
   width: clamp(12.5rem, 11.75rem + 3.19vw, 14.625rem);
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
