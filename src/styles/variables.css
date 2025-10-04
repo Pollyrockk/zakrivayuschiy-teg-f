@@ -1,0 +1,33 @@
+:root {
+  --main-font-family: inter-variable, sans-serif;
+  --accent-font-family: pressstart2p, fantasy;
+  --title-font-weight: 715;
+  --text-font-weight: 410;
+  --text-font-size: 18px;
+  --backround-pattern:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+  --block-width: clamp(23.4375rem, 16.29rem + 30.52vw, 43.75rem);
+  --background-color: #fff;
+  --main-color: #000;
+  --text-color-animation: #fff;
+  /* --text-color-hover: #000; */
+  --header-padding: clamp(7.625rem, 7.45rem + 0.75vw, 8.125rem);
+  --container-border: 0 0 0 2px #000;
+  --label-outline-color: #fff;
+  --contour-heart-color: #000;
+  --animation-fill-color-heart: #f00;
+}
